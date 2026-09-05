@@ -247,21 +247,46 @@ html[lang="ml"] .soon{text-transform:none;letter-spacing:.03em}
   .sec-num{position:static;display:block;margin-bottom:.6rem}
 }
 
-/* ── photographs — never crop: every image shown whole ──── */
-.photo-band{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin:1rem 0 3rem;align-items:start}
+/* ── photographs ────────────────────────────────────────────
+   Framed grid, but crops are gentle (3:2 / 4:3) and anchored to the
+   upper third of the frame so faces stay in view.               */
+.photo-band{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin:1rem 0 3rem}
 .photo-band.two{grid-template-columns:1fr 1fr;margin:2rem 0 1rem}
-.photo-band figure,.honour-photo figure,.gallery figure{margin:0;min-width:0}
-.photo-band img,.honour-photo img,.gallery img{width:100%;height:auto;display:block;filter:saturate(.95);outline:1px solid rgba(0,0,0,.08)}
+.photo-band figure,.honour-photo figure,.gallery figure{margin:0;min-width:0;overflow:hidden;display:flex;flex-direction:column}
+.photo-band img,.honour-photo img,.gallery img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block;filter:saturate(.95);transition:filter .3s}
+.photo-band figure img{aspect-ratio:3/2}
 figcaption{font-size:.98rem;color:var(--ink-2);letter-spacing:.01em;margin-top:.6rem;line-height:1.45}
-.honour-photo{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;padding-top:2.5rem;align-items:start}
-.honour-photo+.honour-photo{padding-top:1.8rem}
-.honour-photo img{outline:1px solid var(--rule);outline-offset:6px}
-/* gallery: masonry via CSS columns — each photo keeps its own proportions */
-.gallery{columns:3;column-gap:1.4rem}
-.gallery figure{break-inside:avoid;margin:0 0 1.4rem;display:block}
+.honour-photo{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;padding-top:2.5rem}
+.honour-photo+.honour-photo{padding-top:1.6rem}
+.honour-photo figure img{aspect-ratio:3/2;outline:1px solid var(--rule);outline-offset:6px}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:250px;grid-auto-flow:dense;gap:1.2rem}
+.gallery figure img{flex:1;min-height:0}
+.gallery .tall{grid-row:span 2}
+.gallery .wide{grid-column:span 2}
+.gallery .big{grid-column:span 2;grid-row:span 2}
 .gallery img:hover{filter:saturate(1)}
-.press-portrait{width:100%;height:auto;margin-bottom:1rem;outline:1px solid var(--rule);outline-offset:6px}
+.gallery figure img{object-position:50% 18%}
+.press-portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 15%;margin-bottom:1rem;outline:1px solid var(--rule);outline-offset:6px}
+/* ── covers ─────────────────────────────────── */
+.shelf{display:grid;grid-template-columns:repeat(6,1fr);gap:1.4rem;align-items:end}
+.shelf.small{grid-template-columns:repeat(6,1fr);gap:1.2rem}
+.shelf figure{margin:0;min-width:0}
+.shelf img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;box-shadow:0 18px 28px -18px rgba(0,0,0,.55);outline:1px solid rgba(0,0,0,.08);transition:transform .3s}
+.shelf figure:hover img{transform:translateY(-4px)}
+.shelf figcaption{margin-top:.6rem;display:flex;flex-direction:column;gap:.15rem}
+.shelf figcaption b{font-family:var(--ml),var(--display);font-weight:600;font-size:1.02rem;color:var(--ink);line-height:1.3}
+.shelf figcaption span{font-size:.92rem;color:var(--ink-3)}
+.book-cover .cover-note{display:none}
 .card-cover{width:78px;aspect-ratio:2/3;object-fit:cover;margin-bottom:1rem;box-shadow:0 12px 20px -14px rgba(0,0,0,.6);outline:1px solid rgba(0,0,0,.08)}
-.shelf img{width:100%;height:auto;aspect-ratio:auto;display:block;box-shadow:0 18px 28px -18px rgba(0,0,0,.55);outline:1px solid rgba(0,0,0,.08);transition:transform .3s}
-@media (max-width:980px){.photo-band,.photo-band.two,.honour-photo{grid-template-columns:1fr}.gallery{columns:2}}
-@media (max-width:720px){.gallery{columns:1}}
+@media (max-width:980px){
+  .photo-band,.photo-band.two,.honour-photo{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}
+  .gallery .big{grid-column:span 2}
+  .shelf,.shelf.small{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:720px){
+  .gallery{grid-template-columns:1fr;grid-auto-rows:auto}
+  .gallery .tall,.gallery .wide,.gallery .big{grid-row:auto;grid-column:auto}
+  .gallery figure img{aspect-ratio:4/3}
+  .shelf,.shelf.small{grid-template-columns:repeat(2,1fr)}
+}
