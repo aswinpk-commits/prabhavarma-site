@@ -128,8 +128,8 @@ home = f"""
 
 <section class="intro-band">
   <p>{b(
-      "Malayalam poet whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the Indian tradition of mega narrative poems back, ushering in a new sensibility that links tradition with modernity. Recipient of the Saraswati Samman, the Sahitya Akademi Award, the Rajat Kamal (National Film Award for lyrics) and the Padma Prabha Puraskaram.",
-      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ഭാരതീയ ബൃഹദ് ആഖ്യാനകാവ്യ പാരമ്പര്യത്തെ തിരികെ കൊണ്ടുവരികയും, പാരമ്പര്യത്തെ ആധുനികതയുമായി കണ്ണിചേർക്കുന്ന പുതിയൊരു ഭാവുകത്വത്തിന് തുടക്കമിടുകയും ചെയ്ത മലയാള കവി. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരമായ രജത കമലം, പത്മപ്രഭാ പുരസ്കാരം എന്നിവ നേടിയ എഴുത്തുകാരൻ.")}</p>
+      "An Indian writer working in Malayalam, whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the Indian tradition of mega narrative poems back, ushering in a new sensibility that links tradition with modernity. He is the only writer to have received the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for Best Lyrics (Rajat Kamal), and is also a recipient of the Padma Prabha Puraskaram.",
+      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ഭാരതീയ ബൃഹദ് ആഖ്യാനകാവ്യ പാരമ്പര്യത്തെ തിരികെ കൊണ്ടുവരികയും, പാരമ്പര്യത്തെ ആധുനികതയുമായി കണ്ണിചേർക്കുന്ന പുതിയൊരു ഭാവുകത്വത്തിന് തുടക്കമിടുകയും ചെയ്ത, മലയാളത്തിൽ എഴുതുന്ന ഭാരതീയ എഴുത്തുകാരൻ. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, മികച്ച ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരം (രജത കമലം) എന്നീ മൂന്നു ബഹുമതികളും നേടിയ ഏക സാഹിത്യകാരൻ; പത്മപ്രഭാ പുരസ്കാരവും ലഭിച്ചിട്ടുണ്ട്.")}</p>
 </section>
 
 <section class="sec">
@@ -397,8 +397,8 @@ honours = f"""
 <section class="page-head">
   <p class="eyebrow">{b("Recognition", "അംഗീകാരം")}</p>
   <h1>{b("Honours", "പുരസ്കാരങ്ങൾ")}</h1>
-  <p class="lede">{b("More than seventy awards across literature, film lyrics, music, theatre and journalism. He is among the very few Indian writers to hold the Saraswati Samman, the Sahitya Akademi Award and the National Film Award (Rajat Kamal) together.",
-                    "സാഹിത്യം, ചലച്ചിത്രഗാനം, സംഗീതം, നാടകം, മാധ്യമപ്രവർത്തനം — എഴുപതിലധികം പുരസ്കാരങ്ങൾ. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, രജത കമലം എന്നിവ ഒരുമിച്ചു നേടിയ അപൂർവം ഇന്ത്യൻ എഴുത്തുകാരിൽ ഒരാൾ.")}</p>
+  <p class="lede">{b("More than seventy awards across literature, film lyrics, music, theatre and journalism. He is the only writer to have received the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for Best Lyrics (Rajat Kamal).",
+                    "സാഹിത്യം, ചലച്ചിത്രഗാനം, സംഗീതം, നാടകം, മാധ്യമപ്രവർത്തനം — എഴുപതിലധികം പുരസ്കാരങ്ങൾ. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, മികച്ച ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരം (രജത കമലം) എന്നീ മൂന്നു ബഹുമതികളും നേടിയ ഏക സാഹിത്യകാരൻ.")}</p>
 </section>
 
 <section class="sec honour-photo">
@@ -654,7 +654,7 @@ contact = f"""
 """
 
 PAGES = [
-    ("index.html", "Poet, Lyricist, Media Person", "കവി", home, "Prabha Varma — Malayalam poet, lyricist and media person. Saraswati Samman, Sahitya Akademi Award and National Film Award recipient; author of Shyama Madhavam, Kanal Chilambu, Roudra Sathwikam."),
+    ("index.html", "Poet, Lyricist, Media Person", "കവി", home, "Prabha Varma — Indian poet, lyricist and media person writing in Malayalam; the only writer to have received the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for Best Lyrics."),
     ("works.html", "Works", "കൃതികൾ", works, "Complete bibliography of Prabha Varma: novels in verse, poetry collections, novels, criticism, memoir and translations."),
     ("honours.html", "Honours", "പുരസ്കാരങ്ങൾ", honours, "Awards and honours received by Prabha Varma, including the Saraswati Samman, Sahitya Akademi Award and Rajat Kamal."),
     ("stage.html", "On Stage & Screen", "രംഗവേദി", stage, "Prabha Varma's film songs, Carnatic kritis, Mohiniyattam padams and theatre adaptations."),
