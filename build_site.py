@@ -48,7 +48,7 @@ def page(fname, title_en, title_ml, body, desc_en):
   "@type": "Person",
   "name": "Prabha Varma",
   "alternateName": "പ്രഭാവർമ്മ",
-  "jobTitle": ["Poet", "Lyricist", "Journalist"],
+  "jobTitle": ["Poet", "Lyricist", "Media person"],
   "nationality": "Indian",
   "knowsLanguage": ["ml", "en"],
   "birthPlace": {{"@type": "Place", "name": "Thiruvalla, Kerala, India"}},
@@ -62,11 +62,10 @@ def page(fname, title_en, title_ml, body, desc_en):
 <body>
 <header class="site-header">
   <a class="brand" href="index.html"><span class="brand-ml">പ്രഭാവർമ്മ</span><span class="brand-en">Prabha Varma</span></a>
-  <nav class="site-nav">{nav}</nav>
+  <nav class="site-nav" aria-label="Main">{nav}</nav>
   <div class="lang-switch" role="group" aria-label="Language">
     <button data-lang="en" class="on">EN</button><span>/</span><button data-lang="ml">മലയാളം</button>
   </div>
-  <button class="menu-btn" aria-label="Menu">☰</button>
 </header>
 <main>
 {body}
@@ -75,7 +74,7 @@ def page(fname, title_en, title_ml, body, desc_en):
   <div class="foot-grid">
     <div>
       <p class="foot-name">Prabha Varma <span class="dot">·</span> പ്രഭാവർമ്മ</p>
-      <p class="foot-note">{b("Poet · Lyricist · Journalist. Saraswati Samman · Sahitya Akademi Award · Rajat Kamal.",
+      <p class="foot-note">{b("Poet · Lyricist · Media person. Saraswati Samman · Sahitya Akademi Award · Rajat Kamal.",
                             "കവി · ഗാനരചയിതാവ് · മാധ്യമപ്രവർത്തകൻ. സരസ്വതി സമ്മാൻ · കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം · രജത കമലം.")}</p>
     </div>
     <div class="foot-links">{nav}</div>
@@ -99,7 +98,7 @@ def sec_head(num, en, ml, sub_en="", sub_ml=""):
 home = f"""
 <section class="hero">
   <div class="hero-text">
-    <p class="eyebrow">{b("Poet · Lyricist · Journalist", "കവി · ഗാനരചയിതാവ് · മാധ്യമപ്രവർത്തകൻ")}</p>
+    <p class="eyebrow">{b("Poet · Lyricist · Media&nbsp;person", "കവി · ഗാനരചയിതാവ് · മാധ്യമപ്രവർത്തകൻ")}</p>
     <h1><span class="h1-ml">പ്രഭാവർമ്മ</span><span class="h1-en">Prabha Varma</span></h1>
     <blockquote class="hero-verse">
       <p>While the cruet in my hand<br>overflows with oil,<br>not even one wick flame<br>should die, drained of oil.</p>
@@ -570,7 +569,7 @@ about = f"""
     <h3>{b("The poet", "കവി")}</h3>
     <p>{b("His first collection, <em>Souparnika</em> (1990), won the Vyloppilli and Ankanam awards; his second, <em>Arkkapoornima</em>, the Kerala Sahitya Akademi Award. Critics have read in his work a confluence of tradition and modernity: a fidelity to the natural metres of Malayalam joined to a contemporary sensibility, philosophical insight, and a gift for the long narrative form that most of his generation had abandoned. O. N. V. Kurup traced his lineage through Vyloppilly to Kumaran Asan; M. Krishnan Nair called him a born poet.",
          "ആദ്യ സമാഹാരം <em>സൗപർണിക</em> (1990) വൈലോപ്പിള്ളി, അങ്കണം പുരസ്കാരങ്ങൾ നേടി; രണ്ടാമത്തേത് <em>അർക്കപൂർണിമ</em> കേരള സാഹിത്യ അക്കാദമി പുരസ്കാരവും. പാരമ്പര്യവും ആധുനികതയും സംഗമിക്കുന്ന കവിത — മലയാളത്തിന്റെ സഹജ വൃത്തങ്ങളോടുള്ള വിശ്വസ്തതയും സമകാലിക ഭാവുകത്വവും ദാർശനിക ഉൾക്കാഴ്ചയും, തലമുറ കൈവിട്ട ദീർഘാഖ്യാന രൂപത്തിലുള്ള അസാധാരണ പ്രാവീണ്യവും.")}</p>
-    <h3>{b("The journalist", "മാധ്യമപ്രവർത്തകൻ")}</h3>
+    <h3>{b("The media person", "മാധ്യമപ്രവർത്തകൻ")}</h3>
     <p>{b("He covered both houses of the Indian Parliament for over a decade, reported the Non-Aligned Summit, the Commonwealth meet and the G-15, and presented a paper on emerging democracies at the UN-backed Doha international meet. He was Director (News) of People TV and Kairali TV from 2001 to 2010, presenting the weekly analysis programme <em>India Inside</em>, and Resident Editor of Deshabhimani. He delivered the keynote at the North American Press Club's media conference in New York in 2009, and later served as Media Secretary to the Chief Minister of Kerala.",
          "ഒരു ദശകത്തിലധികം പാർലമെന്റിന്റെ ഇരുസഭകളും റിപ്പോർട്ട് ചെയ്തു; ചേരിചേരാ ഉച്ചകോടി, കോമൺവെൽത്ത് സമ്മേളനം, ജി-15 എന്നിവ റിപ്പോർട്ട് ചെയ്തു. 2001 മുതൽ 2010 വരെ പീപ്പിൾ ടിവി, കൈരളി ടിവി ന്യൂസ് ഡയറക്ടർ; <em>ഇന്ത്യ ഇൻസൈഡ്</em> എന്ന വാരാന്ത്യ വിശകലന പരിപാടിയുടെ അവതാരകൻ; ദേശാഭിമാനി റസിഡന്റ് എഡിറ്റർ. 2009-ൽ ന്യൂയോർക്കിൽ നോർത്ത് അമേരിക്കൻ പ്രസ് ക്ലബ്ബിന്റെ മാധ്യമ സമ്മേളനത്തിൽ മുഖ്യപ്രഭാഷണം. പിന്നീട് കേരള മുഖ്യമന്ത്രിയുടെ മീഡിയ സെക്രട്ടറി.")}</p>
   </div>
@@ -605,7 +604,7 @@ about = f"""
     <figure class="tall"><img src="images/young-smiling.jpg" alt="Prabha Varma as a young man" loading="lazy"><figcaption>{b("Early years", "ആദ്യകാലം")}</figcaption></figure>
     <figure class="wide"><img src="images/leelavathy-fellowship.jpg" alt="Presenting the Sahitya Akademi Fellowship to Dr M. Leelavathy" loading="lazy"><figcaption>{b("Presenting the Sahitya Akademi Fellowship to Dr M. Leelavathy, as Akademi Executive Board member", "അക്കാദമി എക്സിക്യൂട്ടീവ് അംഗമെന്ന നിലയിൽ ഡോ. എം. ലീലാവതിക്ക് സാഹിത്യ അക്കാദമി ഫെലോഷിപ്പ് സമർപ്പിക്കുന്നു")}</figcaption></figure>
     <figure class="wide"><img src="images/with-ek-nayanar.jpg" alt="With E. K. Nayanar" loading="lazy"><figcaption>{b("With E. K. Nayanar, Chief Minister of Kerala, in the late 1990s", "മുഖ്യമന്ത്രി ഇ. കെ. നായനാർക്കൊപ്പം, 1990-കളുടെ അവസാനം")}</figcaption></figure>
-    <figure class="tall"><img src="images/press-years.jpg" alt="Prabha Varma as a journalist" loading="lazy"><figcaption>{b("The reporting years", "റിപ്പോർട്ടിങ് കാലം")}</figcaption></figure>
+    <figure class="tall"><img src="images/press-years.jpg" alt="Prabha Varma during his reporting years" loading="lazy"><figcaption>{b("The reporting years", "റിപ്പോർട്ടിങ് കാലം")}</figcaption></figure>
     <figure class="wide"><img src="images/n-ramachandran-foundation.jpg" alt="Felicitation by the N. Ramachandran Foundation" loading="lazy"><figcaption>{b("Felicitated by the N. Ramachandran Foundation; Dr Shashi Tharoor at left", "എൻ. രാമചന്ദ്രൻ ഫൗണ്ടേഷന്റെ ആദരം; ഇടത് ഡോ. ശശി തരൂർ")}</figcaption></figure>
     <figure class="tall"><img src="images/with-t-padmanabhan.jpg" alt="With T. Padmanabhan" loading="lazy"><figcaption>{b("Honoured by the writer T. Padmanabhan", "എഴുത്തുകാരൻ ടി. പത്മനാഭൻ ആദരിക്കുന്നു")}</figcaption></figure>
     <figure class="tall"><img src="images/with-s-ramesan-nair.jpg" alt="With poet S. Ramesan Nair" loading="lazy"><figcaption>{b("With the poet S. Ramesan Nair", "കവി എസ്. രമേശൻ നായരോടൊപ്പം")}</figcaption></figure>
@@ -655,12 +654,12 @@ contact = f"""
 """
 
 PAGES = [
-    ("index.html", "Poet, Lyricist, Journalist", "കവി", home, "Prabha Varma — Malayalam poet, lyricist and journalist. Saraswati Samman, Sahitya Akademi Award and National Film Award recipient; author of Shyama Madhavam, Kanal Chilambu, Roudra Sathwikam."),
+    ("index.html", "Poet, Lyricist, Media Person", "കവി", home, "Prabha Varma — Malayalam poet, lyricist and media person. Saraswati Samman, Sahitya Akademi Award and National Film Award recipient; author of Shyama Madhavam, Kanal Chilambu, Roudra Sathwikam."),
     ("works.html", "Works", "കൃതികൾ", works, "Complete bibliography of Prabha Varma: novels in verse, poetry collections, novels, criticism, memoir and translations."),
     ("honours.html", "Honours", "പുരസ്കാരങ്ങൾ", honours, "Awards and honours received by Prabha Varma, including the Saraswati Samman, Sahitya Akademi Award and Rajat Kamal."),
     ("stage.html", "On Stage & Screen", "രംഗവേദി", stage, "Prabha Varma's film songs, Carnatic kritis, Mohiniyattam padams and theatre adaptations."),
     ("writings.html", "Readings", "വായന", writings, "Excerpts from Prabha Varma's verse novels in English translation, critical essays and speeches."),
-    ("about.html", "Life", "ജീവിതം", about, "Biography of Prabha Varma — poet, journalist and public figure from Kerala."),
+    ("about.html", "Life", "ജീവിതം", about, "Biography of Prabha Varma — poet, media person and public figure from Kerala."),
     ("contact.html", "Contact", "ബന്ധപ്പെടുക", contact, "Contact the office of poet Prabha Varma for invitations, press and permissions."),
 ]
 for f, te, tm, body, d in PAGES:
