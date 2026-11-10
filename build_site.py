@@ -101,9 +101,10 @@ home = f"""
   <div class="hero-text">
     <p class="eyebrow">{b("Poet · Lyricist · Journalist", "കവി · ഗാനരചയിതാവ് · മാധ്യമപ്രവർത്തകൻ")}</p>
     <h1><span class="h1-ml">പ്രഭാവർമ്മ</span><span class="h1-en">Prabha Varma</span></h1>
-    <p class="hero-lede">{b(
-      "Malayalam poet whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the long narrative poem back to the centre of Indian literature. Recipient of the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for lyrics.",
-      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ദീർഘകാവ്യത്തെ ഭാരതീയ സാഹിത്യത്തിന്റെ കേന്ദ്രത്തിലേക്ക് തിരികെ കൊണ്ടുവന്ന മലയാള കവി. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരം എന്നിവ നേടിയ എഴുത്തുകാരൻ.")}</p>
+    <blockquote class="hero-verse">
+      <p>While the cruet in my hand<br>overflows with oil,<br>not even one wick flame<br>should die, drained of oil.</p>
+      <cite>{b("Prabha Varma", "പ്രഭാവർമ്മ")}</cite>
+    </blockquote>
     <div class="hero-cta">
       <a class="btn" href="works.html">{b("Explore the works", "കൃതികൾ")}</a>
       <a class="btn ghost" href="writings.html">{b("Read an excerpt", "ഒരു ഭാഗം വായിക്കാം")}</a>
@@ -126,12 +127,10 @@ home = f"""
   <div><b>{b("70+ honours", "70-ലധികം പുരസ്കാരങ്ങൾ")}</b><span>{b("in literature, lyrics, music and media", "സാഹിത്യം, ഗാനം, സംഗീതം, മാധ്യമം")}</span></div>
 </section>
 
-<section class="verse-band">
-  <blockquote>
-    <p class="en">Flocks of birds come from afar,<br>gathering together for a while.<br>Roost on the branches of a tree,<br>then fly away without a trace.</p>
-    <p class="ml">[ശ്യാമമാധവം — മൂലം മലയാളത്തിൽ ചേർക്കേണ്ട ഭാഗം]</p>
-    <cite>{b("— <em>Lament of the Dusky Lord</em> (Shyama Madhavam), translated from the Malayalam", "— <em>ശ്യാമമാധവം</em>")}</cite>
-  </blockquote>
+<section class="intro-band">
+  <p>{b(
+      "Malayalam poet whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the long narrative poem back to the centre of Indian literature. Recipient of the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for lyrics.",
+      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ദീർഘകാവ്യത്തെ ഭാരതീയ സാഹിത്യത്തിന്റെ കേന്ദ്രത്തിലേക്ക് തിരികെ കൊണ്ടുവന്ന മലയാള കവി. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരം എന്നിവ നേടിയ എഴുത്തുകാരൻ.")}</p>
 </section>
 
 <section class="sec">

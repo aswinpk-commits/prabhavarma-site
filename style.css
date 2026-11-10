@@ -61,7 +61,13 @@ html[lang="ml"] .eyebrow{text-transform:none;letter-spacing:.04em;font-size:1.1r
   animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
 .h1-en{font-family:var(--display);font-size:clamp(1.3rem,2.6vw,2.1rem);letter-spacing:.42em;text-transform:uppercase;color:var(--ink-2);margin-top:.6rem;font-weight:400;
   animation:rise .9s .12s cubic-bezier(.2,.7,.2,1) both}
-.hero-lede{font-size:1.3rem;line-height:1.55;max-width:38rem;margin:1.8rem 0 2rem;color:var(--ink-2);animation:rise .9s .22s cubic-bezier(.2,.7,.2,1) both}
+.hero-verse{position:relative;margin:2.9rem 0 2.4rem;padding:.2rem 0 0 2.6rem;max-width:34rem;animation:rise .9s .22s cubic-bezier(.2,.7,.2,1) both}
+.hero-verse::before{content:"\201C";position:absolute;left:-.2rem;top:-1.6rem;font-family:var(--display);font-size:6rem;line-height:1;color:var(--gold);opacity:.85}
+.hero-verse p{font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(1.7rem,2.7vw,2.25rem);line-height:1.38;color:var(--ink);margin:0 0 1rem}
+html[lang="ml"] .hero-verse p{font-family:var(--display);font-style:italic;letter-spacing:0}
+.hero-verse cite{display:block;font-family:var(--serif);font-style:normal;font-weight:600;font-size:1rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.hero-verse cite::before{content:"";display:inline-block;width:2rem;height:1px;background:var(--gold);vertical-align:middle;margin-right:.8rem}
+html[lang="ml"] .hero-verse cite{font-family:var(--ml);text-transform:none;letter-spacing:.02em;font-size:1.05rem}
 .hero-cta{display:flex;gap:.9rem;flex-wrap:wrap;animation:rise .9s .32s cubic-bezier(.2,.7,.2,1) both}
 .btn{display:inline-block;background:var(--indigo);color:#fff;padding:.8rem 1.5rem;border-radius:2px;font-size:1.05rem;letter-spacing:.06em;transition:background .2s,transform .2s}
 .btn:hover{background:var(--indigo-2);color:#fff;transform:translateY(-1px)}
@@ -89,12 +95,10 @@ html[lang="ml"] .honour-strip b{font-family:var(--ml);font-size:1.1rem}
 .honour-strip span{font-size:.98rem;color:var(--ink-2)}
 
 /* ── verse band ─────────────────────────────── */
-.verse-band{margin:4rem 0;padding:3.5rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);text-align:center;position:relative}
-.verse-band::before{content:"❧";position:absolute;top:-.85rem;left:50%;transform:translateX(-50%);background:var(--paper);padding:0 1rem;color:var(--gold);font-size:1.2rem}
-.verse-band blockquote{margin:0 auto;max-width:44rem}
-.verse-band p{font-family:var(--display);font-size:1.75rem;line-height:1.45;font-style:italic;color:var(--ink)}
-html[lang="ml"] .verse-band p{font-family:var(--ml);font-style:normal;font-size:1.35rem}
-.verse-band cite{font-style:normal;font-size:1rem;letter-spacing:.08em;color:var(--ink-3)}
+.intro-band{margin:4rem 0 1rem;padding:3.2rem 0;border-bottom:1px solid var(--rule);text-align:center;position:relative;background:linear-gradient(var(--rule),var(--rule)) left top/calc(50% - 1.6rem) 1px no-repeat,linear-gradient(var(--rule),var(--rule)) right top/calc(50% - 1.6rem) 1px no-repeat}
+.intro-band::before{content:"❧";position:absolute;top:-.8rem;left:50%;transform:translateX(-50%);color:var(--gold);font-size:1.2rem;line-height:1.6rem}
+.intro-band p{max-width:46rem;margin:0 auto;font-size:1.3rem;line-height:1.65;color:var(--ink-2)}
+html[lang="ml"] .intro-band p{font-size:1.2rem;line-height:1.9}
 
 /* ── sections ───────────────────────────────── */
 .sec{padding:3.5rem 0}
@@ -232,6 +236,9 @@ html[lang="ml"] .soon{text-transform:none;letter-spacing:.03em}
 }
 @media (max-width:720px){
   body{font-size:18px}
+  .hero-verse{padding-left:1.8rem;margin:1.8rem 0 2rem}
+  .hero-verse::before{font-size:4.5rem;top:-1.1rem;left:-.3rem}
+  .intro-band p{font-size:1.15rem}
   main{padding:0 1.2rem}
   .site-header{grid-template-columns:1fr auto auto;padding:1rem 1.2rem;gap:1rem}
   .site-nav{display:none;grid-column:1/-1;flex-direction:column;gap:.8rem;padding:1rem 0 .4rem;border-top:1px solid var(--rule)}
