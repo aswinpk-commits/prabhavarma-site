@@ -80,8 +80,8 @@ def page(fname, title_en, title_ml, body, desc_en):
     </div>
     <div class="foot-links">{nav}</div>
     <div>
-      <p class="foot-note">{b("This site is maintained by the Prabha Varma Literary Archive, on behalf of the poet's family and readers. Texts and images are © the author and are reproduced with permission.",
-                            "കവിയുടെ കുടുംബത്തിനും വായനക്കാർക്കും വേണ്ടി പ്രഭാവർമ്മ സാഹിത്യ ആർക്കൈവ് ആണ് ഈ വെബ്‌സൈറ്റ് പരിപാലിക്കുന്നത്. കൃതികളും ചിത്രങ്ങളും ഗ്രന്ഥകർത്താവിന്റെ അനുമതിയോടെ.")}</p>
+      <p class="foot-note">{b("This site is maintained by the Prabha Varma Literary Archive as a record of the poet's life and work. Texts and images are © the author and are reproduced with permission.",
+                            "കവിയുടെ ജീവിതത്തിന്റെയും കൃതികളുടെയും രേഖയായി പ്രഭാവർമ്മ സാഹിത്യ ആർക്കൈവ് ആണ് ഈ വെബ്‌സൈറ്റ് പരിപാലിക്കുന്നത്. കൃതികളും ചിത്രങ്ങളും ഗ്രന്ഥകർത്താവിന്റെ അനുമതിയോടെ.")}</p>
       <p class="foot-note small">© 2026 Prabha Varma. All rights reserved.</p>
     </div>
   </div>
@@ -129,8 +129,8 @@ home = f"""
 
 <section class="intro-band">
   <p>{b(
-      "Malayalam poet whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the long narrative poem back to the centre of Indian literature. Recipient of the Saraswati Samman, the Sahitya Akademi Award and the National Film Award for lyrics.",
-      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ദീർഘകാവ്യത്തെ ഭാരതീയ സാഹിത്യത്തിന്റെ കേന്ദ്രത്തിലേക്ക് തിരികെ കൊണ്ടുവന്ന മലയാള കവി. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരം എന്നിവ നേടിയ എഴുത്തുകാരൻ.")}</p>
+      "Malayalam poet whose novels in verse — <em>Shyama Madhavam</em>, <em>Kanal Chilambu</em>, <em>Roudra Sathwikam</em>, <em>Adayala Vakyam</em> — brought the Indian tradition of mega narrative poems back, ushering in a new sensibility that links tradition with modernity. Recipient of the Saraswati Samman, the Sahitya Akademi Award, the Rajat Kamal (National Film Award for lyrics) and the Padma Prabha Puraskaram.",
+      "<em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em>, <em>രൗദ്രസാത്വികം</em>, <em>അടയാളവാക്യം</em> എന്നീ കാവ്യാഖ്യായികകളിലൂടെ ഭാരതീയ ബൃഹദ് ആഖ്യാനകാവ്യ പാരമ്പര്യത്തെ തിരികെ കൊണ്ടുവരികയും, പാരമ്പര്യത്തെ ആധുനികതയുമായി കണ്ണിചേർക്കുന്ന പുതിയൊരു ഭാവുകത്വത്തിന് തുടക്കമിടുകയും ചെയ്ത മലയാള കവി. സരസ്വതി സമ്മാൻ, കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, ഗാനരചനയ്ക്കുള്ള ദേശീയ ചലച്ചിത്ര പുരസ്കാരമായ രജത കമലം, പത്മപ്രഭാ പുരസ്കാരം എന്നിവ നേടിയ എഴുത്തുകാരൻ.")}</p>
 </section>
 
 <section class="sec">
@@ -142,8 +142,8 @@ home = f"""
       <img class="card-cover" src="images/covers/shyama-madhavam.jpg" alt="" loading="lazy">
       <span class="work-year">2010s</span>
       <h3>Shyama Madhavam<small>ശ്യാമമാധവം</small></h3>
-      <p>{b("Krishna's last hours, told from inside his own remorse. Fifteen chapters; Sahitya Akademi Award, Vayalar Award, Kerala Sahitya Akademi Award. Chosen by the State Library Council as the book of the decade. Translated into ten languages.",
-           "കൃഷ്ണന്റെ അവസാന നിമിഷങ്ങൾ, അദ്ദേഹത്തിന്റെ തന്നെ പശ്ചാത്താപത്തിലൂടെ. പതിനഞ്ച് അധ്യായങ്ങൾ; കേന്ദ്ര-കേരള സാഹിത്യ അക്കാദമി പുരസ്കാരങ്ങൾ, വയലാർ അവാർഡ്. ദശകത്തിലെ മികച്ച പുസ്തകം. പത്ത് ഭാഷകളിലേക്ക് പരിഭാഷ.")}</p>
+      <p>{b("Krishna's last hours, told from inside his own remorse. Fifteen chapters; Sahitya Akademi Award, Vayalar Award. Chosen by the State Library Council as the book of the decade. Translated into ten languages.",
+           "കൃഷ്ണന്റെ അവസാന നിമിഷങ്ങൾ, അദ്ദേഹത്തിന്റെ തന്നെ പശ്ചാത്താപത്തിലൂടെ. പതിനഞ്ച് അധ്യായങ്ങൾ; കേന്ദ്ര സാഹിത്യ അക്കാദമി പുരസ്കാരം, വയലാർ അവാർഡ്. ദശകത്തിലെ മികച്ച പുസ്തകം. പത്ത് ഭാഷകളിലേക്ക് പരിഭാഷ.")}</p>
       <span class="work-eng">Lament of the Dusky Lord</span>
     </a>
     <a class="work-card" href="works.html#kanal">
@@ -158,8 +158,8 @@ home = f"""
       <img class="card-cover" src="images/covers/roudra-sathwikam.jpg" alt="" loading="lazy">
       <span class="work-year">2022</span>
       <h3>Roudra Sathwikam<small>രൗദ്രസാത്വികം</small></h3>
-      <p>{b("Art against power, the individual against the state. Kalidasa reimagined outside history. Saraswati Samman, 2023 — the first Malayalam work to win it in twelve years.",
-           "കലയും അധികാരവും, വ്യക്തിയും രാഷ്ട്രവും തമ്മിലുള്ള സംഘർഷം. ചരിത്രത്തിനു പുറത്ത് പുനർഭാവന ചെയ്ത കാളിദാസൻ. 2023-ലെ സരസ്വതി സമ്മാൻ — പന്ത്രണ്ട് വർഷത്തിനു ശേഷം മലയാളത്തിന്.")}</p>
+      <p>{b("Conflict between art and power, and between the individual and the state. Saraswati Samman, 2023 — the first Malayalam work to win it in twelve years.",
+           "കലയും അധികാരവും, വ്യക്തിയും രാഷ്ട്രവും തമ്മിലുള്ള സംഘർഷം. 2023-ലെ സരസ്വതി സമ്മാൻ — പന്ത്രണ്ട് വർഷത്തിനു ശേഷം മലയാളത്തിന്.")}</p>
       <span class="work-eng">Ferocious Piety</span>
     </a>
     <a class="work-card" href="works.html#adayala">
@@ -167,7 +167,7 @@ home = f"""
       <h3>Adayala Vakyam<small>അടയാളവാക്യം</small></h3>
       <p>{b("A murder, a mind, and modern medicine — perhaps India's only detective novel written in verse.",
            "ഒരു കൊലപാതകം, ഒരു മനസ്സ്, ആധുനിക വൈദ്യശാസ്ത്രം — ഒരുപക്ഷേ ഇന്ത്യയിലെ ഏക പദ്യ കുറ്റാന്വേഷണ നോവൽ.")}</p>
-      <span class="work-eng">Novel in verse</span>
+      <span class="work-eng">Sign Word</span>
     </a>
   </div>
 </section>
@@ -192,6 +192,8 @@ home = f"""
                                          "എം. സന്തോഷ് സംവിധാനം ചെയ്ത <em>ശ്യാമമാധവം</em>, <em>കനൽച്ചിലമ്പ്</em> നാടകങ്ങൾ — യഥാക്രമം 300, 500-ലധികം വേദികളിൽ; ചുവർച്ചിത്ര പ്രദർശനങ്ങൾ, നൃത്താവിഷ്കാരങ്ങൾ.")}</li>
       <li><b>{b("Journalism", "മാധ്യമപ്രവർത്തനം")}</b>{b("Covered both houses of Parliament for over a decade; Director (News) of Kairali/People TV, 2001–2010; Kerala State Award for best general reporting, 1996. Later Media Secretary to the Chief Minister of Kerala.",
                                                 "ഒരു ദശകത്തിലധികം പാർലമെന്റിന്റെ ഇരുസഭകളും റിപ്പോർട്ട് ചെയ്തു; കൈരളി/പീപ്പിൾ ടിവി ന്യൂസ് ഡയറക്ടർ 2001–2010; മികച്ച റിപ്പോർട്ടിങ്ങിനുള്ള സംസ്ഥാന പുരസ്കാരം 1996. പിന്നീട് മുഖ്യമന്ത്രിയുടെ മീഡിയ സെക്രട്ടറി.")}</li>
+      <li><b>{b("Bilingual writer", "ദ്വിഭാഷാ എഴുത്തുകാരൻ")}</b>{b("Writes in both Malayalam and English, and has contributed articles to a range of English and Malayalam journals and newspapers, including <em>The Times of India</em>.",
+                                                "മലയാളത്തിലും ഇംഗ്ലീഷിലും എഴുതുന്നു; <em>ടൈംസ് ഓഫ് ഇന്ത്യ</em> ഉൾപ്പെടെ ഒട്ടേറെ ഇംഗ്ലീഷ്, മലയാളം ആനുകാലികങ്ങളിലും പത്രങ്ങളിലും ലേഖനങ്ങൾ എഴുതിവരുന്നു.")}</li>
     </ul>
     <a class="link-arrow" href="stage.html">{b("On stage and screen →", "രംഗവേദിയിലും ചലച്ചിത്രത്തിലും →")}</a>
   </div>
@@ -205,7 +207,7 @@ home = f"""
 
 <section class="sec cta-band">
   <div>
-    <p class="eyebrow">{b("For juries, editors and researchers", "പുരസ്കാര സമിതികൾക്കും ഗവേഷകർക്കും")}</p>
+    <p class="eyebrow">{b("For editors, translators and researchers", "എഡിറ്റർമാർക്കും പരിഭാഷകർക്കും ഗവേഷകർക്കും")}</p>
     <h2>{b("A verified record of the work", "കൃതികളുടെ ആധികാരിക രേഖ")}</h2>
     <p>{b("Complete bibliography, dated list of honours, translations, adaptations and downloadable biographical notes in English and Malayalam.",
          "സമ്പൂർണ്ണ ഗ്രന്ഥസൂചി, തീയതി സഹിതം പുരസ്കാരപ്പട്ടിക, പരിഭാഷകൾ, ആവിഷ്കാരങ്ങൾ, ഇംഗ്ലീഷിലും മലയാളത്തിലും ജീവചരിത്രക്കുറിപ്പുകൾ.")}</p>
@@ -239,7 +241,7 @@ works = f"""
       <h3>Shyama Madhavam <small>ശ്യാമമാധവം · <em>Lament of the Dusky Lord</em></small></h3>
       <p>{b("A fifteen-chapter narrative poem set in the last moments of Krishna's earthly life, after the hunter's arrow finds his foot. Arjuna, Karna, Dhritarashtra, Jayadratha, Ashwatthama, Draupadi, Rukmini and Radha return to his consciousness one by one, each reopening a moral debt. The poem argues that Krishna's life was not a sequence of ecstasies but of agonies — and that his courage lay in facing them. It ranges across dandakas and classical metres while speaking in a fully modern voice.",
            "വേടന്റെ അമ്പ് കാലിൽ തറച്ച ശേഷമുള്ള കൃഷ്ണന്റെ അവസാന നിമിഷങ്ങളിൽ നടക്കുന്ന പതിനഞ്ച് അധ്യായങ്ങളുള്ള കാവ്യാഖ്യായിക. അർജുനൻ, കർണ്ണൻ, ധൃതരാഷ്ട്രർ, ജയദ്രഥൻ, അശ്വത്ഥാമാവ്, ദ്രൗപദി, രുക്മിണി, രാധ — ഓരോരുത്തരായി ബോധത്തിലേക്ക് മടങ്ങിവരുന്നു. കൃഷ്ണജീവിതം ആനന്ദങ്ങളുടെയല്ല, വേദനകളുടെ പരമ്പരയായിരുന്നു എന്ന് കാവ്യം വാദിക്കുന്നു.")}</p>
-      <ul class="tags"><li>Sahitya Akademi Award 2016</li><li>Vayalar Award 2013</li><li>Kerala Sahitya Akademi Award</li><li>Malayattoor Award 2013</li><li>{b("Book of the Decade — Kerala State Library Council, 2020", "ദശകത്തിലെ പുസ്തകം — സംസ്ഥാന ലൈബ്രറി കൗൺസിൽ 2020")}</li><li>{b("Translated into 10 languages incl. English, Hindi, Sanskrit, Tamil, Telugu, Kannada, Assamese", "10 ഭാഷകളിൽ പരിഭാഷ")}</li><li>{b("Only poetry title in Malayala Manorama's 25 books of the quarter-century (2026)", "മനോരമയുടെ കാൽനൂറ്റാണ്ടിലെ 25 പുസ്തകങ്ങളിൽ ഏക കവിത (2026)")}</li></ul>
+      <ul class="tags"><li>Sahitya Akademi Award 2016</li><li>Vayalar Award 2013</li><li>Malayattoor Award 2013</li><li>{b("Book of the Decade — Kerala State Library Council, 2020", "ദശകത്തിലെ പുസ്തകം — സംസ്ഥാന ലൈബ്രറി കൗൺസിൽ 2020")}</li><li>{b("Translated into 10 languages incl. English, Hindi, Sanskrit, Tamil, Telugu, Kannada, Assamese", "10 ഭാഷകളിൽ പരിഭാഷ")}</li><li>{b("Only poetry title in Malayala Manorama's 25 books of the quarter-century (2026)", "മനോരമയുടെ കാൽനൂറ്റാണ്ടിലെ 25 പുസ്തകങ്ങളിൽ ഏക കവിത (2026)")}</li></ul>
     </div>
   </article>
   <article class="book" id="kanal">
@@ -255,8 +257,8 @@ works = f"""
     <div class="book-cover"><img src="images/covers/roudra-sathwikam.jpg" alt="" onerror="this.parentElement.classList.add('nocover')"><span>രൗദ്രസാത്വികം</span></div>
     <div>
       <h3>Roudra Sathwikam <small>രൗദ്രസാത്വികം · <em>Ferocious Piety</em></small></h3>
-      <p>{b("Published 2022. The title fuses two opposites — <em>roudram</em> (ferocity) and <em>sathwikam</em> (piety) — and the poem lives in the space between them. Kalidasa is lifted out of history and placed inside a story about art and power, the individual and the state, peace and violence, priestly ethos and Machiavellian scheming. The K. K. Birla Foundation's citation praised a work that “transcends the concept of time and space” in addressing the predicament of dharma and adharma.",
-           "2022-ൽ പ്രസിദ്ധീകരിച്ചു. രൗദ്രം, സാത്വികം എന്നീ വിപരീതങ്ങളെ സംയോജിപ്പിച്ച ശീർഷകം. ചരിത്രത്തിൽനിന്ന് അടർത്തിയെടുത്ത കാളിദാസൻ — കലയും അധികാരവും, വ്യക്തിയും രാഷ്ട്രവും, സമാധാനവും ഹിംസയും തമ്മിലുള്ള സംഘർഷത്തിന്റെ കഥയിൽ. ധർമ്മ-അധർമ്മ സന്ദിഗ്ധതയെ കാലദേശാതീതമായി സമീപിക്കുന്ന കൃതി എന്ന് ബിർള ഫൗണ്ടേഷന്റെ പ്രശംസ.")}</p>
+      <p>{b("Published 2022. The title fuses two opposites — <em>roudram</em> (ferocity) and <em>sathwikam</em> (piety) — and the poem lives in the space between them. It is a story of the conflict between art and power, the individual and the state, peace and violence, priestly ethos and Machiavellian scheming. The K. K. Birla Foundation's citation praised a work that “transcends the concept of time and space” in addressing the predicament of dharma and adharma.",
+           "2022-ൽ പ്രസിദ്ധീകരിച്ചു. രൗദ്രം, സാത്വികം എന്നീ വിപരീതങ്ങളെ സംയോജിപ്പിച്ച ശീർഷകം. കലയും അധികാരവും, വ്യക്തിയും രാഷ്ട്രവും, സമാധാനവും ഹിംസയും തമ്മിലുള്ള സംഘർഷത്തിന്റെ കഥ. ധർമ്മ-അധർമ്മ സന്ദിഗ്ധതയെ കാലദേശാതീതമായി സമീപിക്കുന്ന കൃതി എന്ന് ബിർള ഫൗണ്ടേഷന്റെ പ്രശംസ.")}</p>
       <ul class="tags"><li>Saraswati Samman 2023</li><li>{b("English translation: <em>Ferocious Piety</em> (DC Books)", "ഇംഗ്ലീഷ് പരിഭാഷ: <em>Ferocious Piety</em>")}</li></ul>
     </div>
   </article>
@@ -574,8 +576,8 @@ about = f"""
   </div>
   <div>
     <h3>{b("Public life", "പൊതുജീവിതം")}</h3>
-    <p>{b("A member of the General Council of the Sahitya Akademi (2007–2012) and later of its Executive Board, where he convened the Southern Regional Board and the Language Advisory Committee until 2022. Vice-President of the Kerala Sahitya Akademi (2008–2010), a member of the final jury of the Jnanpith Award, and a member of the Senate of Cochin University of Science and Technology. A regular contributor to Malayalam and English dailies including <em>The Times of India</em>.",
-         "സാഹിത്യ അക്കാദമി ജനറൽ കൗൺസിൽ അംഗം (2007–2012), പിന്നീട് എക്സിക്യൂട്ടീവ് ബോർഡ് അംഗം; ദക്ഷിണ മേഖലാ ബോർഡിന്റെയും ഭാഷാ ഉപദേശക സമിതിയുടെയും കൺവീനർ (2022 വരെ). കേരള സാഹിത്യ അക്കാദമി വൈസ് പ്രസിഡന്റ് (2008–2010), ജ്ഞാനപീഠ അന്തിമ ജൂറി അംഗം, കുസാറ്റ് സെനറ്റ് അംഗം. <em>ടൈംസ് ഓഫ് ഇന്ത്യ</em> ഉൾപ്പെടെയുള്ള പത്രങ്ങളിൽ സ്ഥിരം എഴുത്തുകാരൻ.")}</p>
+    <p>{b("A member of the General Council of the Sahitya Akademi (2007–2012) and later of its Executive Board, where he convened the Southern Regional Board and the Language Advisory Committee until 2022. Vice-President of the Kerala Sahitya Akademi (2008–2010), a member of the final jury of the Jnanpith Award, and a member of the Senate of Cochin University of Science and Technology. A bilingual writer, he has contributed articles to a range of English and Malayalam journals and newspapers, including <em>The Times of India</em>.",
+         "സാഹിത്യ അക്കാദമി ജനറൽ കൗൺസിൽ അംഗം (2007–2012), പിന്നീട് എക്സിക്യൂട്ടീവ് ബോർഡ് അംഗം; ദക്ഷിണ മേഖലാ ബോർഡിന്റെയും ഭാഷാ ഉപദേശക സമിതിയുടെയും കൺവീനർ (2022 വരെ). കേരള സാഹിത്യ അക്കാദമി വൈസ് പ്രസിഡന്റ് (2008–2010), ജ്ഞാനപീഠ അന്തിമ ജൂറി അംഗം, കുസാറ്റ് സെനറ്റ് അംഗം. ദ്വിഭാഷാ എഴുത്തുകാരനായ അദ്ദേഹം <em>ടൈംസ് ഓഫ് ഇന്ത്യ</em> ഉൾപ്പെടെ ഒട്ടേറെ ഇംഗ്ലീഷ്, മലയാളം ആനുകാലികങ്ങളിലും പത്രങ്ങളിലും ലേഖനങ്ങൾ എഴുതിവരുന്നു.")}</p>
     <h3>{b("Family", "കുടുംബം")}</h3>
     <p>{b("He lives in Thiruvananthapuram with his wife Manorema. Their daughter Jyotsna is married to Col. K. V. Mahendra; the grandchildren are Jhanvi and Jyothir.",
          "ഭാര്യ മനോരമയോടൊപ്പം തിരുവനന്തപുരത്ത് താമസം. മകൾ ജ്യോത്സ്ന, മരുമകൻ കേണൽ കെ. വി. മഹേന്ദ്ര, പേരക്കുട്ടികൾ ജാഹ്നവി, ജ്യോതിർ.")}</p>
